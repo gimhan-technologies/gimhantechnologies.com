@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Gimhan Technologies</title>
+    <link rel="icon" href="static/gimhan_technologies_logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header and Navbar -->
+<header class="animated fadeInDown">
+    <div class="container">
+        <img src="static/gimhan_technologies_logo.png" alt="Gimhan Technologies Logo" height="100">
+        <h1 class="logo">Gimhan Technologies</h1>
+        <nav class="navbar">
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-list">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="our services.html" class="nav-item">Services</a>
+                <a href="courses.html" class="nav-item">Courses</a>
+                <a href="about.html" class="nav-item">About</a>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <div class="container">
+        <section class="about-section">
+            <h2>Welcome to Gimhan Technologies</h2>
+            <p>At Gimhan Technologies, we specialize in delivering cutting-edge solutions in web development, app creation, IoT innovations, robotics, and cybersecurity. Our team is passionate about creating user-friendly and responsive designs to meet the dynamic needs of our clients.</p>
+            <p>Founded with a vision to revolutionize technology services, we pride ourselves on offering innovative ideas and reliable support to help you achieve your goals.</p>
+        </section>
+
+        <section class="team-section">
+            <h2>Meet Our Team</h2>
+            <div class="team-container">
+                <div class="team-member">
+                    <img src="static/me_latest.png" alt="CEO">
+                    <h3>Gaveesha Gimhan</h3>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="team-member">
+                    <img src="static/team2.jpg" alt="Team Member 2">
+                    <h3>Nethum Matheesha</h3>
+                    <p>Graphic Designer</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gimhan Technologies. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navList = document.querySelector('.nav-list');
+            navList.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+</body>
+</html>

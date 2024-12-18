@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Gimhan Technologies</title>
+    <link rel="icon" href="static/gimhan_technologies_logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header and Navbar -->
+<header class="animated fadeInDown">
+    <div class="container">
+        <img src="static/gimhan_technologies_logo.png" alt="Gimhan Technologies Logo" height="100">
+        <h1 class="logo">Gimhan Technologies</h1>
+        <nav class="navbar">
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-list">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="our services.html" class="nav-item">Services</a>
+                <a href="courses.html" class="nav-item">Courses</a>
+                <a href="about.html" class="nav-item">About</a>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <div class="container">
+        <section class="courses-section">
+            <h2>Learn with Us</h2>
+            <div class="courses-container">
+                <div class="course-card">
+                    <img src="static/webdevo.png" alt="Web Development Course">
+                    <h3>Professional Web Development</h3>
+                    <p>Master the art of creating responsive and dynamic websites with HTML, CSS, and JavaScript.</p>
+                    <a href="enroll_course.html">Enroll Now</a>
+                </div>
+                <div class="course-card">
+                    <img src="static/graphic_design.png" alt="Course 2">
+                    <h3>Professional Graphic Desing</h3>
+                    <p>Learn professional graphic design. You can learn canva, Photoshop, Illustrator and lightroom.</p>
+                    <a href="enroll_course.html">Enroll Now</a>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gimhan Technologies. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navList = document.querySelector('.nav-list');
+            navList.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+</html>

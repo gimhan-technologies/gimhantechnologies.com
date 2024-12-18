@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimhan Technologies - Services</title>
+    <link rel="icon" href="static/gimhan_technologies_logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header and Navbar -->
+<header class="animated fadeInDown">
+    <div class="container">
+        <img src="static/gimhan_technologies_logo.png" alt="Gimhan Technologies Logo" height="100">
+        <h1 class="logo">Gimhan Technologies</h1>
+        <nav class="navbar">
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-list">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="our services.html" class="nav-item">Services</a>
+                <a href="courses.html" class="nav-item">Courses</a>
+                <a href="about.html" class="nav-item">About</a>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+    <main>
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="services-container">
+
+                <div class="service-card">
+                    <img src="static/webdevo.png" alt="Web Development">
+                    <h3>Web Development</h3>
+                    <p>Build responsive and modern websites tailored to your needs.</p>
+                    <button class="use-service">Use Service</button>
+                </div>
+
+                <div class="service-card">
+                    <img src="static/app-development.png" alt="Mobile and Desktop App Development">
+                    <h3>Mobile and Desktop App Development</h3>
+                    <p>Custom mobile applications for iOS and Android platforms.</p>
+                    <button class="use-service">Use Service</button>
+                </div>
+
+                <div class="service-card">
+                    <img src="static/graphic_design.png" alt="Graphic Design">
+                    <h3>Graphic Design</h3>
+                    <p>High Quility photos makes fo you needs.</p>
+                    <button class="use-service">Use Service</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Gimhan Technologies. All rights reserved.</p>
+    </footer>
+    
+<script>
+    function toggleMenu() {
+        const navList = document.querySelector('.nav-list');
+        navList.classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>

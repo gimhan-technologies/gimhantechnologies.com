@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimhan Technologies - Home</title>
+    <link rel="icon" href="static/gimhan_technologies_logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header and Navbar -->
+<header class="animated fadeInDown">
+    <div class="container">
+        <img src="static/gimhan_technologies_logo.png" alt="Gimhan Technologies Logo" height="100">
+        <h1 class="logo">Gimhan Technologies</h1>
+        <nav class="navbar">
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-list">
+                <a href="index.html" class="nav-item">Home</a>
+                <a href="our services.html" class="nav-item">Services</a>
+                <a href="courses.html" class="nav-item">Courses</a>
+                <a href="about.html" class="nav-item">About</a>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<br><br>
+
+<!-- Home Section -->
+<section>
+    <img src="static/gimhan_technologies_banner.png" alt="GT banner" class="responsive-image">
+</section>
+
+<div class="container">
+    <section class="about-section">
+        <h2>Welcome to Gimhan Technologies</h2>
+        <p>At Gimhan Technologies, we specialize in delivering cutting-edge solutions in web development, app creation, IoT innovations, robotics, and cybersecurity. Our team is passionate about creating user-friendly and responsive designs to meet the dynamic needs of our clients.</p>
+        <p>Founded with a vision to revolutionize technology services, we pride ourselves on offering innovative ideas and reliable support to help you achieve your goals.</p>
+    </section>
+</div>
+
+<br>
+    <center><h2>Team Members</h2></center>
+    <div class="team-container">
+        <div class="team-member">
+            <img src="static/me_latest.png" alt="CEO">
+            <h3>T.M. Gaveesha Gimhan Thennakoon</h3>
+            <p>CEO & Founder</p>
+        </div>
+        <div class="team-member">
+            <img src="member2.jpg" alt="Member 1">
+            <h3>Nethum Matheesha</h3>
+            <p>Graphic Desinger and Web developer</p>
+        </div>
+    </div>
+
+<br>
+
+<section class="get-in-touch">
+    <h2>Get in Touch</h2>
+    <p>Feel free to reach out to us using the following contact details:</p>
+    <h4>Email: <a href="mailto:gimhangavee@gmail.com">gimhangavee@gmail.com</a></h4>
+    <h4>Phone: <a href="tel:+94770340609">+94 770 340 609</a> (CEO) <br> <a href="tel:+94779004063"> +94 77 900 4063</a></h4>
+    <h4>Website: <a href="https//www.gimhantechnologies.com" target="_blank">www.gimhantechnologies.com</a> (This Website)</h4>
+    <p>If you need a website or any of our services, don’t hesitate to contact us!</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Gimhan Technologies. All rights reserved.</p>
+</footer>
+
+<script>
+    function toggleMenu() {
+        const navList = document.querySelector('.nav-list');
+        navList.classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>
